@@ -1,0 +1,172 @@
+#menu1{
+    background-color: #569ea3;
+    opacity: 1;
+}
+
+#content{
+	position: relative;
+	width: 100%;
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 74px;
+    background-color: #18191b;
+    bottom: 0%;
+    left: 0%;
+    z-index: 2; 
+    margin-top: 80px;
+}
+
+#container_slider{
+	position: relative;
+	width: 100%;
+	height: 465px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+#zone_content{
+	position: relative;
+	width: 1000px;
+	margin: auto;
+	margin-top: 80px;
+}
+
+#titre_myself{
+	position: relative;
+	width: 694px;
+	margin: auto;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 43px;
+}
+
+#titre_fonc{
+	font-size: 64px;
+	color: #569ea3;
+}
+
+#bulle_logo, #bulle_photo{
+	position: absolute;
+	width: 149px;
+	height: 149px;
+	top: -21px;
+}
+
+#bulle_logo{
+	left: 0px;
+	background-image: url(../img/bulle_logo_index.png);
+}
+
+#bulle_photo{
+	right: 0px;
+	background-image: url(../img/bulle_photo_index.png);
+}
+
+#txt_pres{
+	position: relative;
+	width: 1000px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 60px;
+	line-height: 1.2em;
+}
+
+#txt_pres span{
+	font-size: 21px;
+}
+
+#zone_prestas{
+	position: relative;
+	width: 1000px;
+	margin-top: 60px;
+}
+
+.presta{
+	position: relative;
+	display: inline-block;
+	width: 250px;
+	height: 150px;
+	margin-left: 30px;
+}
+
+#presta1{
+	margin-left: 90px;
+}
+
+.picto_presta{
+	position: relative;
+	width: 149px;
+	height: 149px;
+	margin: auto;
+}
+
+#presta1 .picto_presta{
+	background-image: url(../img/bulle_ergonomie.png);
+}
+
+#presta2 .picto_presta{
+	background-image: url(../img/bulle_crea.png);
+}
+
+#presta3 .picto_presta{
+	background-image: url(../img/bulle_dev.png);
+}
+
+.txt_presta{
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	text-align: justify;
+	font-weight: 300;
+	color: #fff;
+	font-size: 15px;
+	opacity: 0.5;
+	line-height: 1.2em;
+}
+
+.title_presta{
+	position: relative;
+	font-weight: 600;
+	margin-top: 25px;
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+}
+
+#zone_cta{
+	position: relative;
+	margin: auto;
+	width: 228px;
+	margin-top: 85px;
+}
+
+#cta_cv{
+	position: relative;
+	width: 228px;
+	cursor: pointer;
+	height: 49px;
+	box-sizing: border-box;
+	background-image: url(../img/cta_cv.png);
+	color: #fff;
+	font-size: 19px;
+	text-align: center;
+	padding-top: 15px;
+	-moz-transition: color .3s;
+    -webkit-transition: color .3s;
+    -o-transition: color .3s;
+    -ms-transition: color .3s;
+    transition: color .3s;
+}
+
+#cta_cv_hover{
+	
+}
+
+#cta_cv:hover{
+	color: #295c5f;
+}
