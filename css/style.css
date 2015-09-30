@@ -101,6 +101,7 @@ body {
     background: #ffffff;
     background-color: #282828;
     width: 100%;
+    min-width: 1000px;
 }
 
 html{
@@ -140,6 +141,18 @@ img{
 }
 
 /*FIN DU RESET*/
+
+::selection{
+    background-color:#569ea3;
+    color:white;
+}
+
+/* Firefox */
+::-moz-selection {
+    background-color:#569ea3;
+    color:white;
+}
+
 
 .source_sans{
     font-family: 'Source Sans Pro', sans-serif;
