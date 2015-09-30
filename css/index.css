@@ -500,6 +500,15 @@
 	background-image: url(../img/slide3_iphone.png);
 }
 
+#ordi_slide5{
+	position: absolute;
+	width: 558px;
+	height: 388px;
+	top: 34px;
+	left: 443px;
+	background-image: url(../img/slide5_ordi.png);
+}
+
 
 @media screen and (max-width: 1170px){
    
