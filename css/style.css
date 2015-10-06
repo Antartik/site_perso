@@ -102,6 +102,7 @@ body {
     background-color: #282828;
     width: 100%;
     min-width: 1000px;
+    /*overflow: hidden;*/
 }
 
 html{
@@ -282,3 +283,40 @@ img{
     right: 150px;
     background-image: url(../img/pic_viadeo.png);
 }
+
+#chargement{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #18191b;
+    z-index: 999;
+    top: 0%;
+    left: 0%;
+}
+
+#logoload1, #logoload2, #logoload3, #logoload4{
+    position: absolute;
+    width: 80px;
+    height: 68px;
+    left: 50%;
+    margin-left: -40px;
+    top: 50%;
+    margin-top: -34px;
+}
+
+#logoload1{
+    background-image: url(../img/logoload1.png);
+}
+
+#logoload2{
+    background-image: url(../img/logoload2.png);
+}
+
+#logoload3{
+    background-image: url(../img/logoload3.png);
+}
+
+#logoload4{
+    background-image: url(../img/logoload4.png);
+}
+

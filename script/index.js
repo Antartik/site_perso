@@ -138,3 +138,13 @@ $(".nav_slide").click(function(){
 		},800);
 	}
 })
+
+
+$("#menu3").click(function(){
+	$("#logoload1, #logoload2, #logoload3, #logoload4").css({display : "none"});
+	$("#chargement").css({opacity : 1});
+	$("#chargement").fadeIn(200);
+	setTimeout(function(){
+		document.location.href="contact.html"
+	},200);
+});

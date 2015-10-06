@@ -71,12 +71,15 @@
 				.animate({opacity: 0}, function() {
 					// La page est prete
 					$chargement.css({display:'none'});
+					// $('body').css({overflow : "auto"});
 					$('#container')
 						.css({
 							opacity: 0,
 							visibility:'visible'
 						})
 						.animate({opacity:1});
+
+					setTimeout(function(){clearInterval(interval_loader)},500);
 				});
 			
 		}
