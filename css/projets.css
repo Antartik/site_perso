@@ -1,0 +1,280 @@
+#content{
+    position: relative;
+    width: 100%;
+}
+
+#menu2{
+    background-color: #569ea3;
+    opacity: 1;
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 74px;
+    background-color: #18191b;
+    bottom: 0%;
+    left: 0%;
+    z-index: 2; 
+    margin-top: 45px;
+}
+
+#zone_content{
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.projet{
+    position: relative;
+    width: 295px;
+    height: 206px;
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.projet_left{
+    margin-left: 55px;
+}
+
+.projet_right{
+    margin-right: 55px;
+}
+
+.hover_projet{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+}
+
+.bghover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.hover_title{
+    position: absolute;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    top: 53px;
+}
+
+.hover_subtitle{
+    position: absolute;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    top: 86px;
+    opacity: 0.7;
+}
+
+.hover_cta{
+    position: absolute;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    top: 125px;
+    left: 82px;
+    box-sizing : border-box;
+    padding-top: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#projet1{
+    background-image: url(../img/projets/asus.jpg);
+}
+
+#projet1 .hover_projet .hover_cta{
+    background-color: #345aa5;
+}
+
+#projet1 .hover_projet .hover_cta:hover{
+    background-color: #274277;
+}
+
+#projet2{
+    background-image: url(../img/projets/deezer.jpg);
+}
+
+#projet2 .hover_projet .hover_cta{
+    background-color: #de2428;
+}
+
+#projet2 .hover_projet .hover_cta:hover{
+    background-color: #a42528;
+}
+
+#projet3{
+    background-image: url(../img/projets/cornaline.jpg);
+}
+
+#projet3 .hover_projet .hover_cta{
+    background-color: #898f8d;
+}
+
+#projet3 .hover_projet .hover_cta:hover{
+    background-color: #686a69;
+}
+
+#projet4{
+    background-image: url(../img/projets/axe.jpg);
+}
+
+#projet4 .hover_projet .hover_cta{
+    background-color: #52aab5;
+}
+
+#projet4 .hover_projet .hover_cta:hover{
+    background-color: #3b737a;
+}
+
+#projet5{
+    background-image: url(../img/projets/showroom.jpg);
+}
+
+#projet5 .hover_projet .hover_cta{
+    background-color: #c4bf54;
+}
+
+#projet5 .hover_projet .hover_cta:hover{
+    background-color: #938f41;
+}
+
+#projet6{
+    background-image: url(../img/projets/label5.jpg);
+}
+
+#projet6 .hover_projet .hover_cta{
+    background-color: #e96612;
+}
+
+#projet6 .hover_projet .hover_cta:hover{
+    background-color: #b25113;
+}
+
+#projet7{
+    background-image: url(../img/projets/milka.jpg);
+}
+
+#projet7 .hover_projet .hover_cta{
+    background-color: #593d88;
+}
+
+#projet7 .hover_projet .hover_cta:hover{
+    background-color: #392756;
+}
+
+#projet8{
+    background-image: url(../img/projets/samsung.jpg);
+}
+
+#projet8 .hover_projet .hover_cta{
+    background-color: #b297c0;
+}
+
+#projet8 .hover_projet .hover_cta:hover{
+    background-color: #8f7c98;
+}
+
+#projet9{
+    background-image: url(../img/projets/lacoste.jpg);
+}
+
+#projet9 .hover_projet .hover_cta{
+    background-color: #54b57f;
+}
+
+#projet9 .hover_projet .hover_cta:hover{
+    background-color: #3e835c;
+}
+
+#projet10{
+    background-image: url(../img/projets/redbull.jpg);
+}
+
+#projet10 .hover_projet .hover_cta{
+    background-color: #dc2939;
+}
+
+#projet10 .hover_projet .hover_cta:hover{
+    background-color: #a5202c;
+}
+
+#projet11{
+    background-image: url(../img/projets/ikea.jpg);
+}
+
+#projet11 .hover_projet .hover_cta{
+    background-color: #6a7682;
+}
+
+#projet11 .hover_projet .hover_cta:hover{
+    background-color: #485057;
+}
+
+#projet12{
+    background-image: url(../img/projets/haier.jpg);
+}
+
+#projet12 .hover_projet .hover_cta{
+    background-color: #f7b62e;
+}
+
+#projet12 .hover_projet .hover_cta:hover{
+    background-color: #b08223;
+}
+
+#projet13{
+    background-image: url(../img/projets/pages_jaunes.jpg);
+}
+
+#projet13 .hover_projet .hover_cta{
+    background-color: #bca985;
+}
+
+#projet13 .hover_projet .hover_cta:hover{
+    background-color: #857962;
+}
+
+#projet14{
+    background-image: url(../img/projets/claussmann.jpg);
+}
+
+#projet14 .hover_projet .hover_cta{
+    background-color: #828282;
+}
+
+#projet14 .hover_projet .hover_cta:hover{
+    background-color: #4e4e4e;
+}
+
+#projet15{
+    background-image: url(../img/projets/mariage.jpg);
+}
+
+#projet15 .hover_projet .hover_cta{
+    background-color: #c09a6d;
+}
+
+#projet15 .hover_projet .hover_cta:hover{
+    background-color: #81684b;
+}
