@@ -1,4 +1,5 @@
 
+
 $(".projet").mouseenter(function(){
 	$(this).find(".hover_projet").clearQueue().animate({opacity : 1},300);
 });

@@ -8,6 +8,9 @@ body{
     height: 100%;
     left: 0px;
     top: 0px;
+    background-image: url(../img/back_contact.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 #menu3{
@@ -23,4 +26,123 @@ body{
     bottom: 0%;
     left: 0%;
     z-index: 2; 
+}
+
+#zone_content{
+    position: absolute;
+    width: 446px;
+    height: 390px;
+    left: 50%;
+    margin-left: -223px;
+    top: 50%;
+    margin-top: -195px;
+    /*background-color: red;*/
+}
+
+#title_contact{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 28px;
+    top: 30px;
+    opacity: 0;
+}
+
+.picto{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    left: 196px;
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+#picto1{
+    background-image: url(../img/picto_contact_1.png);
+    top: 60px;
+}
+
+#picto2{
+    background-image: url(../img/picto_contact_2.png);
+    top: 124px;
+}
+
+#picto3{
+    background-image: url(../img/picto_contact_3.png);
+    top: 188px;
+}
+
+input, textarea{
+    position: absolute;
+    background-color: rgba(24, 25, 27, 0.75);
+    border: none;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 32px;
+    padding-right: 10px;
+    /*left: 64px;*/
+    left: 230px;
+}
+
+textarea{
+    padding-top: 10px;
+    resize: none;
+    overflow: hidden;
+}
+
+#input_nom{
+    /*width: 350px;*/
+    width: 0px;
+    opacity: 0;
+    height: 40px;
+    top: 67px;
+}
+
+#input_mail{
+    /*width: 350px;*/
+    width: 0px;
+    opacity: 0;
+    height: 40px;
+    top: 131px;
+}
+
+#input_message{
+    /*width: 350px;*/
+    width: 0px;
+    opacity: 0;
+    /*height: 130px;*/
+    height: 40px;
+    top: 195px;
+}
+
+button{
+    position: absolute;
+    width: 118px;
+    height: 43px;
+    border: none;
+    border-radius: 10px;
+    background-color: #569ea3;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    top: 347px;
+    left: 170px;
+    display: none;
+}
+
+button:hover{
+    background-color: #38696c;
 }
