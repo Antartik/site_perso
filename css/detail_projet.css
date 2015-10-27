@@ -97,11 +97,109 @@
     line-height: 1.2;
 }
 
+/*projet ASUS*/
+
 #mockup_asus{
     position: absolute;
     width: 665px;
     height: 466px;
     background-image: url(../img/detail_projet/asus/mockup_asus.png);
-    bottom: 10px;
+    bottom: -60px;
     left: 168px;
+    opacity: 0;
+}
+
+#asus_picto1, #asus_picto2, #asus_picto3, #asus_picto4, #asus_picto5, #asus_picto6{
+    position: absolute;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+#asus_picto1{
+    top: 213px;
+    left: 728px;
+}
+
+#asus_picto2{
+    top: 301px;
+    left: 726px;
+}
+
+#asus_picto3{
+    top: 272px;
+    left: 777px;
+}
+
+#asus_picto4{
+    top: 226px;
+    left: 174px;
+}
+
+#asus_picto6{
+    top: 265px;
+    left: 114px;
+}
+
+#asus_picto5{
+    top: 300px;
+    left: 190px;
+}
+
+/*projet DEEZER*/
+
+#deezer_mockup1{
+    position: absolute;
+    width: 240px;
+    height: 417px;
+    bottom: 40px;
+    left: 256px;
+    background-image: url(../img/detail_projet/deezer/deezer_mockup1.png);
+}
+
+#deezer_mockup2{
+    position: absolute;
+    width: 242px;
+    height: 417px;
+    bottom: 40px;
+    left: 486px;
+    background-image: url(../img/detail_projet/deezer/deezer_mockup2.png);
+}
+
+#deezer_corde1{
+    position: absolute;
+    top: 245px;
+    left: 213px;
+}
+
+#deezer_corde2{
+    position: absolute;
+    top: 353px;
+    left: 436px;
+}
+
+#deezer_bouteille{
+    position: absolute;
+    top: 159px;
+    left: 528px;
+}
+
+#meche{
+    position: absolute;
+    top: 204px;
+    left: 169px;
+}
+
+#deezer_note1{
+    position: absolute;
+    top: 303px;
+    left: 702px; 
+}
+
+#deezer_note2{
+    position: absolute;
+    top: 430px;
+    left: 291px; 
 }

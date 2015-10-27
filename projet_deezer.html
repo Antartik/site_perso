@@ -32,14 +32,15 @@
         <div class="bandeau_sol"></div>
         <div id="zone_content">
           <div class="zone_pres_projet">
-           <div class="title_projet oswald">Asus <span class="subtitle_projet">TF600</span></div>
-           <img src="img/detail_projet/asus/asus_picto3.png" id="asus_picto3" />
-           <img src="img/detail_projet/asus/asus_picto2.png" id="asus_picto2" />
-           <img src="img/detail_projet/asus/asus_picto1.png" id="asus_picto1" />
-           <img src="img/detail_projet/asus/asus_picto4.png" id="asus_picto4" />
-           <img src="img/detail_projet/asus/asus_picto6.png" id="asus_picto6" />
-           <img src="img/detail_projet/asus/asus_picto5.png" id="asus_picto5" />
-           <div id="mockup_asus"></div>
+           <div class="title_projet oswald">Deezer <span class="subtitle_projet">application mobile</span></div>
+           <img src="img/detail_projet/deezer/deezer_note1.png" id="deezer_note1" />
+           <img src="img/detail_projet/deezer/deezer_note2.png" id="deezer_note2" />
+           <img src="img/detail_projet/deezer/deezer_corde1.png" id="deezer_corde1" />
+           <img src="img/detail_projet/deezer/deezer_corde2.png" id="deezer_corde2" />
+           <img src="img/detail_projet/deezer/deezer_bouteille.png" id="deezer_bouteille" />
+           <img src="img/detail_projet/deezer/meche.gif" id="meche" />
+           <div id="deezer_mockup1"></div>
+           <div id="deezer_mockup2"></div>
           </div>
           <div class="zone_descr_projet">
             <div class="zone_logos">
@@ -48,10 +49,11 @@
               <div class="picto jquery"></div>
             </div>
             <div class="zone_texte_projet source_sans">
-              <span class="sb">Développement d’un site promotionel pour une tablette Asus.</span><br /><br />
+              <span class="sb">Développement d’un interstitiel mobile pour l’application mobile de Deezer.</span><br /><br />
 
-La mise en avant des nouveaux outils proposés par Windows 8 a donné lieu à de nombreuse <span class="sb">animations et intéractions</span> au site, ce qui a été réalisé à l’aide de <span class="sb">jQuery</span>.<br />
-La partie contact propose une carte <span class="sb">google map</span> montrant les différents points de vente ainsi qu’une <span class="sb">recherche par code postal</span>.
+Animations et intéraction utilisateur en <span class="sb">Javascript et Jquery</span>.<br />
+Mise en place d’un <span class="sb">rythme d’animation</span> assez précis pour donner<br /> un effet
+d’explosion qui ai de <span class="sb">l’impact</span>.</span>.
 
             </div>
           </div>
@@ -70,23 +72,8 @@ La partie contact propose une carte <span class="sb">google map</span> montrant 
       <script src="script/detail_projet.js"></script>
       <script>
         function animation(){
-          $("#mockup_asus").transition({bottom : "10px", opacity : 1},500);
-          $("#asus_picto2").transition({scale : 1.2},300).transition({scale : 1},200);
-          setTimeout(function(){
-            $("#asus_picto4").transition({scale : 1.2},300).transition({scale : 1},200);
-          },100);
-          setTimeout(function(){
-            $("#asus_picto1").transition({scale : 1.2},300).transition({scale : 1},200);
-          },200);
-          setTimeout(function(){
-            $("#asus_picto6").transition({scale : 1.2},300).transition({scale : 1},200);
-          },300);
-          setTimeout(function(){
-            $("#asus_picto3").transition({scale : 1.2},300).transition({scale : 1},200);
-          },400);
-          setTimeout(function(){
-            $("#asus_picto5").transition({scale : 1.2},300).transition({scale : 1},200);
-          },500);
+            $("#deezer_note1").transition({left : "727px", top: "174px"},400, "easeOutQuad");
+            $("#deezer_note2").transition({left : "214px", top: "353px"},400, "easeOutQuad");
         }
       </script>
     </body>

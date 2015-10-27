@@ -79,9 +79,9 @@
 						})
 						.animate({opacity:1});
 
-					setTimeout(function(){
+					
 						animation();
-                    },300);
+                    
 
 					setTimeout(function(){clearInterval(interval_loader)},500);
 				});

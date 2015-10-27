@@ -99,182 +99,182 @@
     cursor: pointer;
 }
 
-#projet1{
+#projet_asus{
     background-image: url(../img/projets/asus.jpg);
 }
 
-#projet1 .hover_projet .hover_cta{
+#projet_asus .hover_projet .hover_cta{
     background-color: #345aa5;
 }
 
-#projet1 .hover_projet .hover_cta:hover{
+#projet_asus .hover_projet .hover_cta:hover{
     background-color: #274277;
 }
 
-#projet2{
+#projet_deezer{
     background-image: url(../img/projets/deezer.jpg);
 }
 
-#projet2 .hover_projet .hover_cta{
+#projet_deezer .hover_projet .hover_cta{
     background-color: #de2428;
 }
 
-#projet2 .hover_projet .hover_cta:hover{
+#projet_deezer .hover_projet .hover_cta:hover{
     background-color: #a42528;
 }
 
-#projet3{
+#projet_cornaline{
     background-image: url(../img/projets/cornaline.jpg);
 }
 
-#projet3 .hover_projet .hover_cta{
+#projet_cornaline .hover_projet .hover_cta{
     background-color: #898f8d;
 }
 
-#projet3 .hover_projet .hover_cta:hover{
+#projet_cornaline .hover_projet .hover_cta:hover{
     background-color: #686a69;
 }
 
-#projet4{
+#projet_axe{
     background-image: url(../img/projets/axe.jpg);
 }
 
-#projet4 .hover_projet .hover_cta{
+#projet_axe .hover_projet .hover_cta{
     background-color: #52aab5;
 }
 
-#projet4 .hover_projet .hover_cta:hover{
+#projet_axe .hover_projet .hover_cta:hover{
     background-color: #3b737a;
 }
 
-#projet5{
+#projet_showroom{
     background-image: url(../img/projets/showroom.jpg);
 }
 
-#projet5 .hover_projet .hover_cta{
+#projet_showroom .hover_projet .hover_cta{
     background-color: #c4bf54;
 }
 
-#projet5 .hover_projet .hover_cta:hover{
+#projet_showroom .hover_projet .hover_cta:hover{
     background-color: #938f41;
 }
 
-#projet6{
+#projet_label5{
     background-image: url(../img/projets/label5.jpg);
 }
 
-#projet6 .hover_projet .hover_cta{
+#projet_label5 .hover_projet .hover_cta{
     background-color: #e96612;
 }
 
-#projet6 .hover_projet .hover_cta:hover{
+#projet_label5 .hover_projet .hover_cta:hover{
     background-color: #b25113;
 }
 
-#projet7{
+#projet_milka{
     background-image: url(../img/projets/milka.jpg);
 }
 
-#projet7 .hover_projet .hover_cta{
+#projet_milka .hover_projet .hover_cta{
     background-color: #593d88;
 }
 
-#projet7 .hover_projet .hover_cta:hover{
+#projet_milka .hover_projet .hover_cta:hover{
     background-color: #392756;
 }
 
-#projet8{
+#projet_samsung{
     background-image: url(../img/projets/samsung.jpg);
 }
 
-#projet8 .hover_projet .hover_cta{
+#projet_samsung .hover_projet .hover_cta{
     background-color: #b297c0;
 }
 
-#projet8 .hover_projet .hover_cta:hover{
+#projet_samsung .hover_projet .hover_cta:hover{
     background-color: #8f7c98;
 }
 
-#projet9{
+#projet_lacoste{
     background-image: url(../img/projets/lacoste.jpg);
 }
 
-#projet9 .hover_projet .hover_cta{
+#projet_lacoste .hover_projet .hover_cta{
     background-color: #54b57f;
 }
 
-#projet9 .hover_projet .hover_cta:hover{
+#projet_lacoste .hover_projet .hover_cta:hover{
     background-color: #3e835c;
 }
 
-#projet10{
+#projet_redbull{
     background-image: url(../img/projets/redbull.jpg);
 }
 
-#projet10 .hover_projet .hover_cta{
+#projet_redbull .hover_projet .hover_cta{
     background-color: #dc2939;
 }
 
-#projet10 .hover_projet .hover_cta:hover{
+#projet_redbull .hover_projet .hover_cta:hover{
     background-color: #a5202c;
 }
 
-#projet11{
+#projet_ikea{
     background-image: url(../img/projets/ikea.jpg);
 }
 
-#projet11 .hover_projet .hover_cta{
+#projet_ikea .hover_projet .hover_cta{
     background-color: #6a7682;
 }
 
-#projet11 .hover_projet .hover_cta:hover{
+#projet_ikea .hover_projet .hover_cta:hover{
     background-color: #485057;
 }
 
-#projet12{
+#projet_haier{
     background-image: url(../img/projets/haier.jpg);
 }
 
-#projet12 .hover_projet .hover_cta{
+#projet_haier .hover_projet .hover_cta{
     background-color: #f7b62e;
 }
 
-#projet12 .hover_projet .hover_cta:hover{
+#projet_haier .hover_projet .hover_cta:hover{
     background-color: #b08223;
 }
 
-#projet13{
+#projet_pages_jaunes{
     background-image: url(../img/projets/pages_jaunes.jpg);
 }
 
-#projet13 .hover_projet .hover_cta{
+#projet_pages_jaunes .hover_projet .hover_cta{
     background-color: #bca985;
 }
 
-#projet13 .hover_projet .hover_cta:hover{
+#projet_pages_jaunes .hover_projet .hover_cta:hover{
     background-color: #857962;
 }
 
-#projet14{
+#projet_claussmann{
     background-image: url(../img/projets/claussmann.jpg);
 }
 
-#projet14 .hover_projet .hover_cta{
+#projet_claussmann .hover_projet .hover_cta{
     background-color: #828282;
 }
 
-#projet14 .hover_projet .hover_cta:hover{
+#projet_claussmann .hover_projet .hover_cta:hover{
     background-color: #4e4e4e;
 }
 
-#projet15{
+#projet_mariage{
     background-image: url(../img/projets/mariage.jpg);
 }
 
-#projet15 .hover_projet .hover_cta{
+#projet_mariage .hover_projet .hover_cta{
     background-color: #c09a6d;
 }
 
-#projet15 .hover_projet .hover_cta:hover{
+#projet_mariage .hover_projet .hover_cta:hover{
     background-color: #81684b;
 }

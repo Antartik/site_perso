@@ -25,6 +25,17 @@ $("#menu3").click(function(){
 	},200);
 });
 
+$(".projet").click(function(){
+	var this_id = $(this).attr("id");
+	var identif = this_id.substring(7, 25);
+
+	$("#chargement").css({opacity : 1});
+	$("#chargement").fadeIn(200);
+	setTimeout(function(){
+		document.location.href= this_id+".html"
+	},200);
+});
+
 function animation(){
 	
 }
