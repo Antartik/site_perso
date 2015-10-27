@@ -1,7 +1,10 @@
 var position_slider = 1;
 var click_ok = true;
+var interval_slider = null;
 
 $("#right_btn").click(function(){
+	clearInterval(interval_slider);
+	animation();
 	if(click_ok){
 		click_ok = false;
 		$(".nav_slide").removeClass("nav_current");
@@ -49,6 +52,8 @@ $("#right_btn").click(function(){
 });
 
 $("#left_btn").click(function(){
+	clearInterval(interval_slider);
+	animation();
 	if(click_ok){
 		click_ok = false;
 		$(".nav_slide").removeClass("nav_current");
@@ -96,6 +101,8 @@ $("#left_btn").click(function(){
 });
 
 $(".nav_slide").click(function(){
+	clearInterval(interval_slider);
+	animation();
 	var current_id = $(this).attr("id");
 	var current = parseInt(current_id.substring(9,10));
 	
@@ -156,3 +163,9 @@ $("#menu2").click(function(){
 		document.location.href="projets.html"
 	},200);
 });
+
+function animation(){
+	interval_slider = setInterval(function(){
+		$("#right_btn").trigger("click");
+	},5000);
+}

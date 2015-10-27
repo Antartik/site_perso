@@ -1,5 +1,5 @@
 
-$("#menu1").click(function(){
+$("#menu1, #logo_head").click(function(){
 	$("#chargement").css({opacity : 1});
 	$("#chargement").fadeIn(200);
 	setTimeout(function(){
@@ -15,7 +15,7 @@ $("#menu2").click(function(){
 	},200);
 });
 
-function anim_contact(){
+function animation(){
 	$("#picto1").transition({scale : 1},300);
 	setTimeout(function(){
 		$("#picto2").transition({scale : 1},300);

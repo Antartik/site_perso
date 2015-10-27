@@ -76,6 +76,7 @@
 	position: relative;
 	width: 1000px;
 	margin-top: 60px;
+	height: 495px;
 }
 
 .presta{
@@ -84,6 +85,7 @@
 	width: 250px;
 	height: 150px;
 	margin-left: 30px;
+	vertical-align:top;
 }
 
 #presta1{
@@ -492,12 +494,21 @@
 	background-image: url(../img/slide3_ordi.png);
 }
 
+#ipad_slide3{
+	position: absolute;
+	width: 309px;
+	height: 397px;
+	top: 15px;
+	left: 400px;
+	background-image: url(../img/slide3_ipad.png);
+}
+
 #iphone_slide3{
 	position: absolute;
 	width: 183px;
 	height: 193px;
-	top: 228px;
-	left: 689px;
+	top: 138px;
+	left: 738px;
 	background-image: url(../img/slide3_iphone.png);
 }
 

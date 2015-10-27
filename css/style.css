@@ -197,6 +197,7 @@ img{
     width: 48px;
     top: 15px;
     left: 8px;
+    cursor: pointer;
 }
 
 .menu_nav{

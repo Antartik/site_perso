@@ -80,9 +80,7 @@
 						.animate({opacity:1});
 
 					setTimeout(function(){
-						if ($.isFunction(anim_contact)) {
-	                      anim_contact();
-	                    };
+						animation();
                     },300);
 
 					setTimeout(function(){clearInterval(interval_loader)},500);
