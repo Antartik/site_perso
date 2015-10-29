@@ -203,3 +203,172 @@
     top: 430px;
     left: 291px; 
 }
+
+/*projet CORNALINE*/
+
+#mockup_cornaline{
+    position: absolute;
+    width: 335px;
+    height: 435px;
+    bottom: 23px;
+    left: 261px;
+    background-image: url(../img/detail_projet/cornaline/cornaline_mockup.png);
+}
+
+#mockup_cornaline2{
+    position: absolute;
+    width: 139px;
+    height: 258px;
+    bottom: 27px;
+    left: 579px;
+    background-image: url(../img/detail_projet/cornaline/cornaline_mockup2.png);
+}
+
+.corps_blanc, .corps_rouge, .left_blanc, .right_blanc, .left_rouge, .right_rouge{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    left: 0%;
+    top: 0%;
+}
+
+.left_blanc{
+    background-image: url(../img/detail_projet/cornaline/left_blanc.png);
+}
+
+.right_blanc{
+    background-image: url(../img/detail_projet/cornaline/right_blanc.png);
+}
+
+.left_rouge{
+    background-image: url(../img/detail_projet/cornaline/left_rouge.png);
+}
+
+.right_rouge{
+    background-image: url(../img/detail_projet/cornaline/right_rouge.png);
+}
+
+#papillon1{
+    position: absolute;
+    width: 92px;
+    height: 79px;
+    left: 294px;
+    top: 362px;
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    transform: rotate(-55deg);
+}
+
+#papillon2{
+    position: absolute;
+    width: 80px;
+    height: 68px;
+    left: 294px;
+    top: 471px;
+    -webkit-transform: rotate(-42deg);
+    -moz-transform: rotate(-42deg);
+    -o-transform: rotate(-42deg);
+    -ms-transform: rotate(-42deg);
+    transform: rotate(-42deg);
+}
+
+#papillon3{
+    position: absolute;
+    width: 96px;
+    height: 82px;
+    left: 588px;
+    top: 355px;
+    -webkit-transform: rotate(32deg);
+    -moz-transform: rotate(32deg);
+    -o-transform: rotate(32deg);
+    -ms-transform: rotate(32deg);
+    transform: rotate(32deg);
+}
+
+#papillon4{
+    position: absolute;
+    width: 75px;
+    height: 64px;
+    left: 618px;
+    top: 440px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#papillon5{
+    position: absolute;
+    width: 64px;
+    height: 55px;
+    left: 494px;
+    top: 271px;
+    -webkit-transform: rotate(55deg);
+    -moz-transform: rotate(55deg);
+    -o-transform: rotate(55deg);
+    -ms-transform: rotate(55deg);
+    transform: rotate(55deg);
+}
+
+/*projet LABEL5*/
+
+#mockup_label5{
+    position: absolute;
+    width: 682px;
+    height: 406px;
+    top: 187px;
+    left: 69px;
+    background-image: url(../img/detail_projet/label5/label5_mockup.png);
+}
+
+#mockup_label5_2{
+    position: absolute;
+    width: 159px;
+    height: 271px;
+    top: 325px;
+    left: 738px;
+    background-image: url(../img/detail_projet/label5/label5_mockup2.png);
+}
+
+#ble{
+    position: absolute;
+    width: 434px;
+    height: 271px;
+    left: 144px;
+    top: 286px; 
+    background-image: url(../img/detail_projet/label5/ble.png);
+}
+
+#tonneau{
+    position: absolute;
+    width: 101px;
+    height: 110px;
+    left: 775px;
+    top: 413px; 
+    background-image: url(../img/detail_projet/label5/tonneau.png);
+}
+
+#engrenage{
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    top: 312px;
+    left: 642px;
+    background-image: url(../img/detail_projet/label5/engrenage.png);
+}
+
+#engrenage2{
+    position: absolute;
+    width: 74px;
+    height: 76px;
+    top: 374px;
+    left: 718px;
+    background-image: url(../img/detail_projet/label5/engrenage.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}

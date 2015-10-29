@@ -32,15 +32,13 @@
         <div class="bandeau_sol"></div>
         <div id="zone_content">
           <div class="zone_pres_projet">
-           <div class="title_projet oswald">Deezer <span class="subtitle_projet">application mobile</span></div>
-           <img src="img/detail_projet/deezer/deezer_note1.png" id="deezer_note1" />
-           <img src="img/detail_projet/deezer/deezer_note2.png" id="deezer_note2" />
-           <img src="img/detail_projet/deezer/deezer_corde1.png" id="deezer_corde1" />
-           <img src="img/detail_projet/deezer/deezer_corde2.png" id="deezer_corde2" />
-           <img src="img/detail_projet/deezer/deezer_bouteille.png" id="deezer_bouteille" />
-           <img src="img/detail_projet/deezer/meche.gif" id="meche" />
-           <div id="deezer_mockup1"></div>
-           <div id="deezer_mockup2"></div>
+           <div class="title_projet oswald">label5 <span class="subtitle_projet">catch the 5</span></div>
+           <div id="ble"></div>
+           <div id="tonneau"></div>
+           <div id="engrenage"></div>
+           <div id="engrenage2"></div>
+           <div id="mockup_label5"></div>
+           <div id="mockup_label5_2"></div>
           </div>
           <div class="zone_descr_projet">
             <div class="zone_logos">
@@ -49,11 +47,11 @@
               <div class="picto jquery"></div>
             </div>
             <div class="zone_texte_projet source_sans">
-              <span class="sb">Intégration d’un interstitiel mobile pour l’application mobile de Deezer.</span><br /><br />
+              <span class="sb">Intégration d’un site intéractif cross device pour Label 5.</span><br /><br />
 
-Animations et intéraction utilisateur en <span class="sb">Javascript et Jquery</span>.<br />
-Mise en place d’un <span class="sb">rythme d’animation</span> assez précis pour donner<br /> un effet
-d’explosion qui ai de <span class="sb">l’impact</span>.</span>.
+Le site comprend de nombreuses <span class="sb">intéractions utilisateur</span> qui permettent de faire<br /> comprendre facilement la façon dont est fabriqué le whisky.<br />
+La plupart des évènements sont gérés en <span class="sb">Jquery et en transitions CSS3</span>.<br /><br />Pour la version mobile, une libarairie externe a été utilisée pour<br /> la <span class="sb">gestion
+des évènements touch</span>.
 
             </div>
           </div>
@@ -71,9 +69,22 @@ d’explosion qui ai de <span class="sb">l’impact</span>.</span>.
       <script src="script/script.js"></script>
       <script src="script/detail_projet.js"></script>
       <script>
+        var degree = 0;
+        var degree2 = 0;
+        var interval_wheel = null;
         function animation(){
-            $("#deezer_note1").transition({left : "727px", top: "174px"},400, "easeOutQuad");
-            $("#deezer_note2").transition({left : "214px", top: "353px"},400, "easeOutQuad");
+            $("#ble").animate({left: "-16px"},600);
+            $("#tonneau").animate({left: "870px"},600);
+            degree=degree+30;
+            degree2=degree2+30;
+            $("#engrenage").animate({rotate : "-"+degree+"deg"},400, "linear");
+            $("#engrenage2").animate({rotate : degree2+"deg"},400, "linear");
+          interval_wheel = setInterval(function(){
+            degree=degree+30;
+            degree2=degree2+30;
+            $("#engrenage").animate({rotate : "-"+degree+"deg"},400, "linear");
+            $("#engrenage2").animate({rotate : degree2+"deg"},400, "linear");
+          },400);
         }
       </script>
     </body>

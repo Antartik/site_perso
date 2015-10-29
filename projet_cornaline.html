@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+      <link type="text/css" rel="stylesheet" href="css/detail_projet.css"/>
+        <title>Antoine Desjardins</title>
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="script/pageloader.js"></script>
+        <script src="script/jquery.transit.min.js"></script>
+    </head>
+    <body>
+      <div id="chargement">
+        <div id="logoload1"></div>
+        <div id="logoload2"></div>
+        <div id="logoload3"></div>
+        <div id="logoload4"></div>
+      </div>
+      <div id="header">
+        <div id="blue_header"></div>
+        <div id="zone_content_header">
+          <img src="img/logo_head.png" id="logo_head" />
+          <div class="menu_nav oswald" id="menu1">accueil</div>
+          <div class="menu_nav oswald" id="menu2">projets</div>
+          <div class="menu_nav oswald" id="menu3">contact</div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="bandeau_sol"></div>
+        <div id="zone_content">
+          <div class="zone_pres_projet">
+           <div class="title_projet oswald">VAN CLEFF & ARPELS <span class="subtitle_projet">Cornaline</span></div>
+           <div id="papillon1">
+             <div class="left_blanc left_blanc1"></div>
+             <div class="right_blanc right_blanc1"></div>
+             <img src="img/detail_projet/cornaline/corps_blanc.png" class="corps_blanc" />
+           </div>
+           <div id="papillon2">
+             <div class="left_rouge"></div>
+             <div class="right_rouge"></div>
+             <img src="img/detail_projet/cornaline/corps_rouge.png" class="corps_rouge" />
+           </div>
+           <div id="papillon3">
+             <div class="left_rouge"></div>
+             <div class="right_rouge"></div>
+             <img src="img/detail_projet/cornaline/corps_rouge.png" class="corps_rouge" />
+           </div>
+           <div id="papillon4">
+             <div class="left_blanc left_blanc1"></div>
+             <div class="right_blanc right_blanc1"></div>
+             <img src="img/detail_projet/cornaline/corps_blanc.png" class="corps_blanc" />
+           </div>
+           <div id="papillon5">
+             <div class="left_blanc left_blanc2"></div>
+             <div class="right_blanc right_blanc2"></div>
+             <img src="img/detail_projet/cornaline/corps_blanc.png" class="corps_blanc" />
+           </div>
+           <div id="mockup_cornaline"></div>
+           <div id="mockup_cornaline2"></div>
+          </div>
+          <div class="zone_descr_projet">
+            <div class="zone_logos">
+              <div class="picto html5"></div>
+              <div class="picto css3"></div>
+              <div class="picto jquery"></div>
+            </div>
+            <div class="zone_texte_projet source_sans">
+              <span class="sb">Intégration d’un interstitiel mobile/tablette responsive pour un collier.</span><br /><br />
+
+Les animations ont été faites en <span class="sb">Jquery et CSS3</span> pour plus de fluidité. <br />
+Il fallait que le rendu soit <span class="sb">élégant</span>, le plus gros du travail a donc été sur les <br />
+<span class="sb">battements d’ailes des papillons</span> ainsi que sur leurs trajectoires.
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="zone_content_footer">
+          <div id="copyright" class="source_sans">Copyright © 2015 - Antoine Desjardins - Tous droits réservés</div>
+          <a href="http://fr.viadeo.com/fr/profile/desjardins.antoine" target="_blank"><div class="share_foot" id="pic_viadeo"></div></a>
+          <a href="https://fr.pinterest.com/antoinedesjardi/" target="_blank"><div class="share_foot" id="pic_pinterest"></div></a>
+          <a href="https://fr.linkedin.com/pub/antoine-desjardins/21/328/61a" target="_blank"><div class="share_foot" id="pic_linkedin"></div></a>
+          <a href="cv.pdf" target="_blank"><div class="share_foot" id="pic_cv"></div></a>
+        </div>
+      </div>
+      <script src="script/script.js"></script>
+      <script src="script/detail_projet.js"></script>
+      <script>
+        function animation(){
+          $("#papillon1").animate({left: "120px", top: "269px"},1400);
+          $("#papillon2").animate({left: "202px", top: "425px"},1400);
+          $("#papillon3").animate({left: "685px", top: "221px"},1400);
+          $("#papillon4").animate({left: "713px", top: "358px"},1400);
+          $("#papillon5").animate({left: "569px", top: "234px"},1400);
+          $(".right_blanc2").animate({width : "50%", left : "25%"},300).animate({width : "100%", left : "0%"},300);
+          $(".left_blanc2").animate({width : "50%", left : "25%"},300).animate({width : "100%", left : "0%"},300);
+          $(".right_blanc1").animate({width : "50%", left : "25%"},400).animate({width : "100%", left : "0%"},400);
+          $(".left_blanc1").animate({width : "50%", left : "25%"},400).animate({width : "100%", left : "0%"},400);
+          $(".right_rouge").animate({width : "50%", left : "25%"},500).animate({width : "100%", left : "0%"},500);
+          $(".left_rouge").animate({width : "50%", left : "25%"},500).animate({width : "100%", left : "0%"},500);
+          inter_pap0 = setInterval(function(){
+              $(".right_blanc2").animate({width : "50%", left : "25%"},300).animate({width : "100%", left : "0%"},300);
+              $(".left_blanc2").animate({width : "50%", left : "25%"},300).animate({width : "100%", left : "0%"},300);
+          },650);
+          inter_pap1 = setInterval(function(){
+              $(".right_blanc1").animate({width : "50%", left : "25%"},400).animate({width : "100%", left : "0%"},400);
+              $(".left_blanc1").animate({width : "50%", left : "25%"},400).animate({width : "100%", left : "0%"},400);
+          },850);
+          inter_pap2 = setInterval(function(){
+              $(".right_rouge").animate({width : "50%", left : "25%"},500).animate({width : "100%", left : "0%"},500);
+              $(".left_rouge").animate({width : "50%", left : "25%"},500).animate({width : "100%", left : "0%"},500);
+          },1050);
+        }
+      </script>
+    </body>
+</html>
