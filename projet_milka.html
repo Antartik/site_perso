@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+      <link type="text/css" rel="stylesheet" href="css/detail_projet.css"/>
+        <title>Antoine Desjardins</title>
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="script/pageloader.js"></script>
+        <script src="script/jquery.transit.min.js"></script>
+    </head>
+    <body>
+      <div id="chargement">
+        <div id="logoload1"></div>
+        <div id="logoload2"></div>
+        <div id="logoload3"></div>
+        <div id="logoload4"></div>
+      </div>
+      <div id="header">
+        <div id="blue_header"></div>
+        <div id="zone_content_header">
+          <img src="img/logo_head.png" id="logo_head" />
+          <div class="menu_nav oswald" id="menu1">accueil</div>
+          <div class="menu_nav oswald" id="menu2">projets</div>
+          <div class="menu_nav oswald" id="menu3">contact</div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="bandeau_sol"></div>
+        <div id="zone_content">
+          <div class="zone_pres_projet">
+           <div class="title_projet oswald">milka <span class="subtitle_projet">milka mix game</span></div>
+           <img src="img/detail_projet/milka/picto1.png" id="milka_picto1" />
+           <img src="img/detail_projet/milka/picto2.png" id="milka_picto2" />
+           <img src="img/detail_projet/milka/picto3.png" id="milka_picto3" />
+           <img src="img/detail_projet/milka/picto4.png" id="milka_picto4" />
+           <img src="img/detail_projet/milka/picto5.png" id="milka_picto5" />
+           <img src="img/detail_projet/milka/picto6.png" id="milka_picto6" />
+           <img src="img/detail_projet/milka/picto7.png" id="milka_picto7" />
+           <img src="img/detail_projet/milka/picto8.png" id="milka_picto8" />
+           <img src="img/detail_projet/milka/picto9.png" id="milka_picto9" />
+           <div id="milka_question"></div>
+           <div id="milka_mockup1"></div>
+           <div id="milka_mockup2"></div>
+          </div>
+          <div class="zone_descr_projet">
+            <div class="zone_logos">
+              <div class="picto html5"></div>
+              <div class="picto css3"></div>
+              <div class="picto jquery"></div>
+            </div>
+            <div class="zone_texte_projet source_sans">
+              <span class="sb">Intégration jeu facebook pour Milka.</span><br /><br />
+
+Connection <span class="sb">via facebook</span> afin de récupérer les informations de la personne 
+et la liste de ses amis afin qu’il puisse les inviter à jouer. Création d’une 
+<span class="sb">application Facebook</span> et utilisation de <span class="sb">l’API</span> afin de gérer requêtes.<br /><br />
+
+Mise en place d’un jeu avec timer et création d’une <span class="sb">base de données</span> pour <br />
+gérer les parties jouées et les personnes inscrites.
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="zone_content_footer">
+          <div id="copyright" class="source_sans">Copyright © 2015 - Antoine Desjardins - Tous droits réservés</div>
+          <a href="http://fr.viadeo.com/fr/profile/desjardins.antoine" target="_blank"><div class="share_foot" id="pic_viadeo"></div></a>
+          <a href="https://fr.pinterest.com/antoinedesjardi/" target="_blank"><div class="share_foot" id="pic_pinterest"></div></a>
+          <a href="https://fr.linkedin.com/pub/antoine-desjardins/21/328/61a" target="_blank"><div class="share_foot" id="pic_linkedin"></div></a>
+          <a href="cv.pdf" target="_blank"><div class="share_foot" id="pic_cv"></div></a>
+        </div>
+      </div>
+      <script src="script/script.js"></script>
+      <script src="script/detail_projet.js"></script>
+      <script>
+        function animation(){
+          $("#milka_question").transition({opacity : 1, scale : 1},600);
+          setTimeout(function(){
+            $("#milka_picto1").transition({left : "8px", top : "312px"},800, "easeOutQuad");
+            $("#milka_picto2").transition({left : "81px", top : "247px"},700, "easeOutQuad");
+            $("#milka_picto3").transition({left : "87px", top : "385px"},600, "easeOutQuad");
+            $("#milka_picto4").transition({left : "762px", top : "288px"},500, "easeOutQuad");
+            $("#milka_picto5").transition({left : "764px", top : "179px"},600, "easeOutQuad");
+            $("#milka_picto6").transition({left : "849px", top : "285px"},700, "easeOutQuad");
+            $("#milka_picto7").transition({left : "857px", top : "202px"},800, "easeOutQuad");
+            $("#milka_picto8").transition({left : "937px", top : "460px"},500, "easeOutQuad");
+            $("#milka_picto9").transition({left : "957px", top : "365px"},600, "easeOutQuad");
+          },300);
+
+        }
+      </script>
+    </body>
+</html>

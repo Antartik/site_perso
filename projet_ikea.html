@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+      <link type="text/css" rel="stylesheet" href="css/detail_projet.css"/>
+        <title>Antoine Desjardins</title>
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="script/pageloader.js"></script>
+        <script src="script/jquery.transit.min.js"></script>
+    </head>
+    <body>
+      <div id="chargement">
+        <div id="logoload1"></div>
+        <div id="logoload2"></div>
+        <div id="logoload3"></div>
+        <div id="logoload4"></div>
+      </div>
+      <div id="header">
+        <div id="blue_header"></div>
+        <div id="zone_content_header">
+          <img src="img/logo_head.png" id="logo_head" />
+          <div class="menu_nav oswald" id="menu1">accueil</div>
+          <div class="menu_nav oswald" id="menu2">projets</div>
+          <div class="menu_nav oswald" id="menu3">contact</div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="bandeau_sol"></div>
+        <div id="zone_content">
+          <div class="zone_pres_projet">
+           <div class="title_projet oswald">ikea <span class="subtitle_projet">method</span></div>
+           <img src="img/detail_projet/ikea/porte1.png" class="porte_ikea" id="porte_ikea1" />
+           <img src="img/detail_projet/ikea/porte2.png" class="porte_ikea" id="porte_ikea2" />
+           <img src="img/detail_projet/ikea/porte3.png" class="porte_ikea" id="porte_ikea3" />
+           <img src="img/detail_projet/ikea/porte4.png" class="porte_ikea" id="porte_ikea4" />
+           <img src="img/detail_projet/ikea/porte5.png" class="porte_ikea" id="porte_ikea5" />
+           <img src="img/detail_projet/ikea/porte6.png" class="porte_ikea" id="porte_ikea6" />
+           <img src="img/detail_projet/ikea/porte7.png" class="porte_ikea" id="porte_ikea7" />
+           <img src="img/detail_projet/ikea/porte8.png" class="porte_ikea" id="porte_ikea8" />
+           <img src="img/detail_projet/ikea/porte9.png" class="porte_ikea" id="porte_ikea9" />
+           <div id="tiroir_ikea2"></div>
+           <div id="tiroir_ikea3"></div>
+           <div id="tiroir_ikea1"></div>
+           <div id="ikea_shadow1"></div>
+           <div id="ikea_shadow2"></div>
+           <div id="mockup_ikea"></div>
+          </div>
+          <div class="zone_descr_projet">
+            <div class="zone_logos">
+              <div class="picto html5"></div>
+              <div class="picto css3"></div>
+              <div class="picto jquery"></div>
+            </div>
+            <div class="zone_texte_projet source_sans">
+              <span class="sb">Intégration d’un site intéractif visitant des cuisines Ikea.</span><br /><br />
+
+La navigation entière se fait grâce au <span class="sb">scroll</span>, celui-ci lance un <span class="sb">zoom</span> <br />
+qui nous fait voyager au travers des différentes cuisines.<br /><br />
+
+Beaucoup d’intéractions <span class="sb">drag and drop</span> sont possibles et on peut <br />
+visiter le site en <span class="sb">plein écran</span> grâce à un bouton.
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="zone_content_footer">
+          <div id="copyright" class="source_sans">Copyright © 2015 - Antoine Desjardins - Tous droits réservés</div>
+          <a href="http://fr.viadeo.com/fr/profile/desjardins.antoine" target="_blank"><div class="share_foot" id="pic_viadeo"></div></a>
+          <a href="https://fr.pinterest.com/antoinedesjardi/" target="_blank"><div class="share_foot" id="pic_pinterest"></div></a>
+          <a href="https://fr.linkedin.com/pub/antoine-desjardins/21/328/61a" target="_blank"><div class="share_foot" id="pic_linkedin"></div></a>
+          <a href="cv.pdf" target="_blank"><div class="share_foot" id="pic_cv"></div></a>
+        </div>
+      </div>
+      <script src="script/script.js"></script>
+      <script src="script/detail_projet.js"></script>
+      <script>
+        var pos_3d=1;
+        var interval_3d = null;
+
+        function animation(){
+
+          setTimeout(function(){
+            $("#tiroir_ikea1").transition({left : "48px"}, 700, "easeOutQuad");
+          },100);
+          setTimeout(function(){
+            $("#tiroir_ikea2").transition({left : "119px"}, 700, "easeOutQuad");
+          },300);
+          setTimeout(function(){
+            $("#tiroir_ikea3").transition({left : "92px"}, 700, "easeOutQuad");
+            $("#ikea_shadow1").transition({opacity : 1}, 400);
+          },500);
+
+          setTimeout(function(){
+            interval_3d = setInterval(function(){
+              if(pos_3d==9){
+                clearInterval(interval_3d);
+              }else{
+                pos_3d = pos_3d+1;
+                $("#porte_ikea"+pos_3d).css({display : "block"});
+                $("#porte_ikea"+(pos_3d-1)).css({display : "none"});
+              }
+            },80);
+          },800);
+        }
+      </script>
+    </body>
+</html>

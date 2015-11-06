@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+      <link type="text/css" rel="stylesheet" href="css/detail_projet.css"/>
+        <title>Antoine Desjardins</title>
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="script/pageloader.js"></script>
+        <script src="script/jquery.transit.min.js"></script>
+    </head>
+    <body>
+      <div id="chargement">
+        <div id="logoload1"></div>
+        <div id="logoload2"></div>
+        <div id="logoload3"></div>
+        <div id="logoload4"></div>
+      </div>
+      <div id="header">
+        <div id="blue_header"></div>
+        <div id="zone_content_header">
+          <img src="img/logo_head.png" id="logo_head" />
+          <div class="menu_nav oswald" id="menu1">accueil</div>
+          <div class="menu_nav oswald" id="menu2">projets</div>
+          <div class="menu_nav oswald" id="menu3">contact</div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="bandeau_sol"></div>
+        <div id="zone_content">
+          <div class="zone_pres_projet">
+           <div class="title_projet oswald">mariage <span class="subtitle_projet">organisation</span></div>
+           
+          </div>
+          <div class="zone_descr_projet">
+            <div class="zone_logos">
+              <div class="picto html5"></div>
+              <div class="picto css3"></div>
+              <div class="picto jquery"></div>
+            </div>
+            <div class="zone_texte_projet source_sans">
+              <span class="sb">Design et intégration site web pour un mariage.</span><br /><br />
+
+<span class="sb">Style graphique</span> inspiré à partir du logo créé par la wedding planeuse. <br />
+Site disponible en <span class="sb">trois langues</span> différentes afin de guider au mieux 
+les invités <br />sur les évènements à venir.<br />
+Animations en <span class="sb">Jquery</span> afin de donner de l’intéractivité aux visiteurs.
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="zone_content_footer">
+          <div id="copyright" class="source_sans">Copyright © 2015 - Antoine Desjardins - Tous droits réservés</div>
+          <a href="http://fr.viadeo.com/fr/profile/desjardins.antoine" target="_blank"><div class="share_foot" id="pic_viadeo"></div></a>
+          <a href="https://fr.pinterest.com/antoinedesjardi/" target="_blank"><div class="share_foot" id="pic_pinterest"></div></a>
+          <a href="https://fr.linkedin.com/pub/antoine-desjardins/21/328/61a" target="_blank"><div class="share_foot" id="pic_linkedin"></div></a>
+          <a href="cv.pdf" target="_blank"><div class="share_foot" id="pic_cv"></div></a>
+        </div>
+      </div>
+      <script src="script/script.js"></script>
+      <script src="script/detail_projet.js"></script>
+      <script>
+        function animation(){
+          $("#voiture_citroen1").transition({left: "496px"},700);
+          $("#voiture_citroen2").transition({left: "45px"},700);
+          setTimeout(function(){
+              $("#citroen_picto1").transition({left: "98px", top: "261px"},500);
+              $("#citroen_picto2").transition({left: "118px", top: "208px"},500);
+              $("#citroen_picto3").transition({left: "177px", top: "188px"},500);
+              $("#citroen_picto4").transition({left: "862px", top: "231px"},500);
+              $("#citroen_picto5").transition({left: "872px", top: "169px"},500);
+              $("#citroen_picto6").transition({left: "936px", top: "200px"},500);
+          },500);
+        }
+      </script>
+    </body>
+</html>

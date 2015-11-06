@@ -270,7 +270,7 @@
 }
 
 #slide4{
-	background-color: #2c2f38;
+	background-image: url(../img/back_slide4.jpg);
 }
 
 #slide5{
@@ -519,6 +519,15 @@
 	top: 34px;
 	left: 443px;
 	background-image: url(../img/slide5_ordi.png);
+}
+
+#ordi_slide4{
+	position: absolute;
+	width: 696px;
+	height: 450px;
+	bottom: 0px;
+	left: 320px;
+	background-image: url(../img/slide4_ordi.png);
 }
 
 

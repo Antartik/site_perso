@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+      <link type="text/css" rel="stylesheet" href="css/detail_projet.css"/>
+        <title>Antoine Desjardins</title>
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="script/pageloader.js"></script>
+        <script src="script/jquery.transit.min.js"></script>
+    </head>
+    <body>
+      <div id="chargement">
+        <div id="logoload1"></div>
+        <div id="logoload2"></div>
+        <div id="logoload3"></div>
+        <div id="logoload4"></div>
+      </div>
+      <div id="header">
+        <div id="blue_header"></div>
+        <div id="zone_content_header">
+          <img src="img/logo_head.png" id="logo_head" />
+          <div class="menu_nav oswald" id="menu1">accueil</div>
+          <div class="menu_nav oswald" id="menu2">projets</div>
+          <div class="menu_nav oswald" id="menu3">contact</div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="bandeau_sol"></div>
+        <div id="zone_content">
+          <div class="zone_pres_projet">
+           <div class="title_projet oswald">Red Bull <span class="subtitle_projet">Shark</span></div>
+           <div id="terrain_redbull"></div>
+           <div id="redbull_fish1"></div>
+           <div id="redbull_fish2"></div>
+           <div id="redbull_shark"></div>
+           <div id="mockup_redbull1"></div>
+           <div id="mockup_redbull2"></div>
+          </div>
+          <div class="zone_descr_projet">
+            <div class="zone_logos">
+              <div class="picto html5"></div>
+              <div class="picto css3"></div>
+              <div class="picto jquery"></div>
+            </div>
+            <div class="zone_texte_projet source_sans">
+              <span class="sb">Intégration interstitiel mobile Red Bull.</span><br /><br />
+
+Format <span class="sb">full responsive</span> portrait et paysage géré en <span class="sb">jQuery</span>.
+Utilisation de <span class="sb">media-Queries</span> pour que l’affichage soit optimal quel 
+que soit l’appareil mobile utilisé.
+
+Utilisation d’<span class="sb">animations en CSS3</span> pour donner plus de fluidité 
+aux nombreux éléments à animer.</span>.
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="zone_content_footer">
+          <div id="copyright" class="source_sans">Copyright © 2015 - Antoine Desjardins - Tous droits réservés</div>
+          <a href="http://fr.viadeo.com/fr/profile/desjardins.antoine" target="_blank"><div class="share_foot" id="pic_viadeo"></div></a>
+          <a href="https://fr.pinterest.com/antoinedesjardi/" target="_blank"><div class="share_foot" id="pic_pinterest"></div></a>
+          <a href="https://fr.linkedin.com/pub/antoine-desjardins/21/328/61a" target="_blank"><div class="share_foot" id="pic_linkedin"></div></a>
+          <a href="cv.pdf" target="_blank"><div class="share_foot" id="pic_cv"></div></a>
+        </div>
+      </div>
+      <script src="script/script.js"></script>
+      <script src="script/detail_projet.js"></script>
+      <script>
+        function animation(){
+          $("#redbull_shark").transition({left : "659px", top : "153px"}, 1500);
+          $("#redbull_fish1").transition({left : "387px", top : "227px"}, 1500);
+          $("#redbull_fish2").transition({left : "387px", top : "227px"}, 1300);
+        }
+      </script>
+    </body>
+</html>

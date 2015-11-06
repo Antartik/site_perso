@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+      <link type="text/css" rel="stylesheet" href="css/detail_projet.css"/>
+        <title>Antoine Desjardins</title>
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="script/pageloader.js"></script>
+        <script src="script/jquery.transit.min.js"></script>
+    </head>
+    <body>
+      <div id="chargement">
+        <div id="logoload1"></div>
+        <div id="logoload2"></div>
+        <div id="logoload3"></div>
+        <div id="logoload4"></div>
+      </div>
+      <div id="header">
+        <div id="blue_header"></div>
+        <div id="zone_content_header">
+          <img src="img/logo_head.png" id="logo_head" />
+          <div class="menu_nav oswald" id="menu1">accueil</div>
+          <div class="menu_nav oswald" id="menu2">projets</div>
+          <div class="menu_nav oswald" id="menu3">contact</div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="bandeau_sol"></div>
+        <div id="zone_content">
+          <div class="zone_pres_projet">
+           <div class="title_projet oswald">claussmann <span class="subtitle_projet">piano works</span></div>
+           <div id="img_claussmann"></div>
+           <div id="cd_claussmann"></div>
+           <div id="shadow_claussmann"></div>
+           <div id="mockup_claussmann"></div>
+          </div>
+          <div class="zone_descr_projet">
+            <div class="zone_logos">
+              <div class="picto html5"></div>
+              <div class="picto css3"></div>
+              <div class="picto jquery"></div>
+            </div>
+            <div class="zone_texte_projet source_sans">
+              <span class="sb">Design et intégration d’un site web pour un pianiste.</span><br /><br />
+
+La <span class="sb">maquette</span> a été conçue de façon à ce qu’elle puisse être adaptée à un maximum de taille d’écrans différentes. La <span class="sb">charte graphique</span> a été réalisée en même temps que le site.<br /><br />
+
+Des média-queries ont été utilisé afin d’adapter le site, un <span class="sb">plugin paypal</span> a aussi été mis en place pour le <span class="sb">e-commerce</span>.
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="zone_content_footer">
+          <div id="copyright" class="source_sans">Copyright © 2015 - Antoine Desjardins - Tous droits réservés</div>
+          <a href="http://fr.viadeo.com/fr/profile/desjardins.antoine" target="_blank"><div class="share_foot" id="pic_viadeo"></div></a>
+          <a href="https://fr.pinterest.com/antoinedesjardi/" target="_blank"><div class="share_foot" id="pic_pinterest"></div></a>
+          <a href="https://fr.linkedin.com/pub/antoine-desjardins/21/328/61a" target="_blank"><div class="share_foot" id="pic_linkedin"></div></a>
+          <a href="cv.pdf" target="_blank"><div class="share_foot" id="pic_cv"></div></a>
+        </div>
+      </div>
+      <script src="script/script.js"></script>
+      <script src="script/detail_projet.js"></script>
+      <script>
+        function animation(){
+          var degree = 0;
+          var interval_wheel = null;
+            $("#img_claussmann").transition({opacity : 1}, 2000);
+            interval_wheel = setInterval(function(){
+              degree=degree+30;
+              $("#cd_claussmann").animate({rotate : degree+"deg"},600, "linear");
+            },600);
+        }
+      </script>
+    </body>
+</html>

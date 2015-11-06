@@ -1,3 +1,4 @@
+
 #content{
     position: relative;
     width: 100%;
@@ -371,4 +372,404 @@
     background-image: url(../img/detail_projet/label5/engrenage.png);
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
+}
+
+/*projet SHOWROOM*/
+
+#mockup_citroen{
+    position: absolute;
+    width: 718px;
+    height: 428px;
+    left: 166px;
+    top: 146px;
+    background-image: url(../img/detail_projet/showroom/citroen_mockup.png);
+}
+
+#voiture_citroen1{
+    position: absolute;
+    width: 631px;
+    height: 259px;
+    left: 223px;
+    top: 253px;
+    background-image: url(../img/detail_projet/showroom/voiture1.png);
+}
+
+#voiture_citroen2{
+    position: absolute;
+    width: 381px;
+    height: 198px;
+    left: 256px;
+    top: 261px;
+    background-image: url(../img/detail_projet/showroom/voiture2.png);
+}
+
+#citroen_picto1{
+    position: absolute;
+    left: 250px;
+    top: 290px;
+}
+
+#citroen_picto2{
+    position: absolute;
+    left: 249px;
+    top: 272px;
+}
+
+#citroen_picto3{
+    position: absolute;
+    left: 264px;
+    top: 188px;
+}
+
+#citroen_picto4{
+    position: absolute;
+    left: 796px;
+    top: 285px;
+}
+
+#citroen_picto5{
+    position: absolute;
+    left: 787px;
+    top: 219px;
+}
+
+#citroen_picto6{
+    position: absolute;
+    left: 776px;
+    top: 250px;
+}
+
+/*projet MILKA*/
+
+#milka_mockup1{
+    position: absolute;
+    width: 698px;
+    height: 416px;
+    left: 84px;
+    top: 161px;
+    background-image: url(../img/detail_projet/milka/milka_mockup1.png);
+}
+
+#milka_mockup2{
+    position: absolute;
+    width: 142px;
+    height: 240px;
+    left: 793px;
+    top: 341px;
+    background-image: url(../img/detail_projet/milka/milka_mockup2.png);
+}
+
+#milka_question{
+    position: absolute;
+    width: 237px;
+    height: 126px;
+    left: 650px;
+    top: 373px;
+    background-image: url(../img/detail_projet/milka/question.png);
+    opacity: 0;
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+#milka_picto1{
+    position: absolute;
+    left: 175px;
+    top: 327px;
+}
+
+#milka_picto2{
+    position: absolute;
+    left: 175px;
+    top: 327px;
+}
+
+#milka_picto3{
+    position: absolute;
+    left: 175px;
+    top: 327px;
+}
+
+#milka_picto4{
+    position: absolute;
+    left: 686px;
+    top: 370px;
+}
+
+#milka_picto5{
+    position: absolute;
+    left: 686px;
+    top: 370px;
+}
+
+#milka_picto6{
+    position: absolute;
+    left: 686px;
+    top: 370px;
+}
+
+#milka_picto7{
+    position: absolute;
+    left: 686px;
+    top: 370px;
+}
+
+#milka_picto8{
+    position: absolute;
+    left: 865px;
+    top: 427px;
+}
+
+#milka_picto9{
+    position: absolute;
+    left: 865px;
+    top: 427px;
+}
+
+/*projet IKEA*/
+
+#mockup_ikea{
+    position: absolute;
+    width: 718px;
+    height: 428px;
+    left: 132px;
+    top: 147px;
+    background-image: url(../img/detail_projet/ikea/ikea_mockup.png);
+}
+
+.porte_ikea{
+    position: absolute;
+    width: 278px;
+    height: 411px;
+    left: 732px;
+    top: 150px;
+}
+
+#porte_ikea2, #porte_ikea3, #porte_ikea4, #porte_ikea5, #porte_ikea6, #porte_ikea7, #porte_ikea8, #porte_ikea9{
+    display: none;
+}
+
+#tiroir_ikea1{
+    position: absolute;
+    width: 222px;
+    height: 287px;
+    left: 220px;
+    top: 193px;
+    background-image: url(../img/detail_projet/ikea/tiroir1.png);
+}
+
+#tiroir_ikea2{
+    position: absolute;
+    width: 133px;
+    height: 64px;
+    left: 220px;
+    top: 161px;
+    background-image: url(../img/detail_projet/ikea/tiroir2.png);
+}
+
+#tiroir_ikea3{
+    position: absolute;
+    width: 155px;
+    height: 219px;
+    left: 220px;
+    top: 328px;
+    background-image: url(../img/detail_projet/ikea/tiroir3.png);
+}
+
+#ikea_shadow1{
+    position: absolute;
+    width: 95px;
+    height: 452px;
+    left: 154px;
+    top: 132px;
+    opacity: 0;
+    background-image: url(../img/detail_projet/ikea/shadow1.png);
+}
+
+#ikea_shadow2{
+    position: absolute;
+    width: 91px;
+    height: 466px;
+    left: 744px;
+    top: 119px;
+    background-image: url(../img/detail_projet/ikea/shadow2.png);
+}
+
+/*projet REDBULL*/
+
+#mockup_redbull1{
+    position: absolute;
+    width: 245px;
+    height: 412px;
+    left: 182px;
+    top: 167px;
+    background-image: url(../img/detail_projet/redbull/redbull_mockup1.png);
+}
+
+#mockup_redbull2{
+    position: absolute;
+    width: 440px;
+    height: 196px;
+    left: 401px;
+    top: 387px;
+    background-image: url(../img/detail_projet/redbull/redbull_mockup2.png);
+}
+
+#terrain_redbull{
+    position: absolute;
+    width: 931px;
+    height: 124px;
+    left: 69px;
+    top: 437px;
+    background-image: url(../img/detail_projet/redbull/terrain.png);
+}
+
+#redbull_fish1{
+    position: absolute;
+    width: 237px;
+    height: 194px;
+    left: 1100px;
+    top: -200px;
+    background-image: url(../img/detail_projet/redbull/fish1.png);
+}
+
+#redbull_fish2{
+    position: absolute;
+    width: 237px;
+    height: 194px;
+    left: 1100px;
+    top:-200px;
+    background-image: url(../img/detail_projet/redbull/fish2.png);
+}
+
+#redbull_shark{
+    position: absolute;
+    width: 226px;
+    height: 106px;
+    left: 1250px;
+    top: -170px;
+    background-image: url(../img/detail_projet/redbull/shark.png);
+}
+
+/*projet AXE*/
+
+#mockup_axe{
+    position: absolute;
+    width: 509px;
+    height: 444px;
+    left: 233px;
+    top: 149px;
+    background-image: url(../img/detail_projet/axe/axe_mockup.png);
+}
+
+#back_axe{
+    position: absolute;
+    width: 989px;
+    height: 453px;
+    left: -84px;
+    top: 0px;
+    background-image: url(../img/detail_projet/axe/back.png);
+    opacity: 0.2;
+}
+
+/*projet LACOSTE*/
+
+#mockup_lacoste1{
+    position: absolute;
+    width: 232px;
+    height: 413px;
+    left: 263px;
+    top: 173px;
+    background-image: url(../img/detail_projet/lacoste/lacoste_mockup1.png);
+}
+
+#mockup_lacoste2{
+    position: absolute;
+    width: 228px;
+    height: 404px;
+    left: 505px;
+    top: 192px;
+    background-image: url(../img/detail_projet/lacoste/lacoste_mockup2.png);
+}
+
+#polo_lacoste1{
+    position: absolute;
+    width: 177px;
+    height: 305px;
+    left: 288px;
+    top: 211px;
+    background-image: url(../img/detail_projet/lacoste/polo1.png);
+}
+
+#polo_lacoste2{
+    position: absolute;
+    width: 147px;
+    height: 276px;
+    left: 550px;
+    top: 237px;
+    background-image: url(../img/detail_projet/lacoste/polo2.png);
+}
+
+#rosace_lacoste{
+    position: absolute;
+    width: 198px;
+    height: 191px;
+    left: 396px;
+    top: 273px;
+    background-image: url(../img/detail_projet/lacoste/rosace.png);
+    -webkit-transform-origin: 52% 47%;
+    -moz-transform-origin: 52% 47%;
+    -o-transform-origin: 52% 47%;
+    -ms-transform-origin: 52% 47%;
+    transform-origin: 52% 47%;
+}
+
+#shadow_lacoste{
+    position: absolute;
+    width: 171px;
+    height: 331px;
+    left: 415px;
+    top: 206px;
+    background-image: url(../img/detail_projet/lacoste/shadow.png);
+}
+
+/*projet CLAUSSMANN*/
+
+#mockup_claussmann{
+    position: absolute;
+    width: 718px;
+    height: 428px;
+    left: 128px;
+    top: 147px;
+    background-image: url(../img/detail_projet/claussmann/claussmann_mockup.png);
+}
+
+#img_claussmann{
+    position: absolute;
+    width: 268px;
+    height: 376px;
+    left: 794px;
+    top: 179px;
+    background-image: url(../img/detail_projet/claussmann/img_claussmann.png);
+    opacity: 0;
+}
+
+#cd_claussmann{
+    position: absolute;
+    width: 300px;
+    height: 303px;
+    left: 50px;
+    top: 210px;
+    background-image: url(../img/detail_projet/claussmann/cd.png);
+}
+
+#shadow_claussmann{
+    position: absolute;
+    width: 96px;
+    height: 448px;
+    left: 154px;
+    top: 139px;
+    background-image: url(../img/detail_projet/claussmann/shadow.png);
 }
